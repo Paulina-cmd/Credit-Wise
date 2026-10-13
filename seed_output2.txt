@@ -1,0 +1,13 @@
+﻿Existing tables in database: {'mision', 'historialmisiones', 'recomendaciones', 'notificacion', 'actividad', 'actividad_usuario', 'dolarvalor', 'rolusuario', 'progresousuario', 'usuario', 'evaluacion'}
+Missions ensured: [1, 2, 3]
+Activities ensured: [2, 3, 4]
+actividad_usuario assigned
+Evaluations ensured: [1, 2]
+Inserted historialmisiones
+
+--- Seed Summary ---
+Checked tables: ['rolusuario', 'usuario', 'mision', 'actividad', 'actividad_usuario', 'evaluacion', 'historialmisiones', 'recomendaciones']
+Inserted items: [('actividad_usuario', 2), ('actividad_usuario', 3), ('actividad_usuario', 4), ('historialmisiones', 1)]
+Skipped items: ['rolusuario (not empty)', ('usuario', 'exists id=7'), ('mision', 'Aprende presupuesto'), ('mision', 'Entiende intereses'), ('mision', 'Ahorra 10% mensual'), ('actividad', 'Revisa tu presupuesto'), ('actividad', 'Calcula interes simple'), ('actividad', 'Activa ahorro automßtico'), ('evaluacion', 'Inicial'), ('evaluacion', 'Final'), 'recomendaciones (not empty)']
+Errors: []
+Seed finished

@@ -1,0 +1,37 @@
+Soporte y Ayuda
+===============
+
+¿Tienes algún problema o duda? Aquí encontrarás la forma de obtener ayuda.
+
+Preguntas frecuentes
+---------------------
+**1. ¿Qué hago si olvidé mi contraseña?**  
+Puedes restablecerla haciendo clic en *“¿Olvidaste tu contraseña?”* desde la pantalla de inicio de sesión.
+
+**2. ¿Puedo usar CreditWise en mi celular?**  
+Sí. CreditWise es una aplicación web adaptable (responsive), compatible con dispositivos móviles.
+
+**3. ¿Debo pagar por usar CreditWise?**  
+No. La aplicación es completamente gratuita.
+
+**4. ¿Qué tipo de datos personales guarda CreditWise?**  
+Solo se almacenan datos básicos para el funcionamiento de la cuenta (nombre, correo, progreso).
+
+**5. ¿Qué pasa si cierro sesión?**  
+Tu información queda guardada y podrás ingresar nuevamente en cualquier momento.
+
+Contacto de soporte
+--------------------
+Si necesitas ayuda personalizada, comunícate con nuestro equipo de soporte:
+
+- 📧 Correo: **soporte@creditwise.com**
+- 💬 Chat en línea: disponible en la sección “Ayuda” de la aplicación.
+- 📱 Redes sociales: Facebook, Instagram y X (Twitter) como **@CreditWiseApp**.
+
+Recomendaciones generales
+--------------------------
+- Mantén tu información actualizada.  
+- Usa contraseñas seguras.  
+- Cierra sesión al finalizar tu uso en dispositivos compartidos.  
+- Consulta periódicamente tus misiones para seguir aprendiendo.  
+

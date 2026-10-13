@@ -1,0 +1,40 @@
+.login-container {
+  display: flex;
+  height: 100vh;
+}
+
+.logo-side {
+  flex: 1;
+  background-color: #d8b4fe; /* morado claro */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  padding: 2rem;
+}
+
+.form-side {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.brand {
+  color: #6b21a8; /* morado fuerte */
+}
+
+.error {
+  color: red;
+  margin-bottom: 1rem;
+}
+
+.toggle {
+  margin-top: 1rem;
+  color: #6b21a8;
+  text-decoration: underline;
+  cursor: pointer;
+}

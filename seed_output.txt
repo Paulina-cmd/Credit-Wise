@@ -1,0 +1,14 @@
+﻿Existing tables in database: {'dolarvalor', 'evaluacion', 'progresousuario', 'mision', 'notificacion', 'rolusuario', 'actividad', 'usuario'}
+Inserted usuario id= 7
+Missions ensured: [1, 2, 3]
+Activities ensured: [2, 3, 4]
+Evaluations ensured: [1, 2]
+Table recomendaciones not found ù creating it (safe)
+Inserted recomendaciones samples
+
+--- Seed Summary ---
+Checked tables: ['rolusuario', 'usuario', 'mision', 'actividad', 'actividad_usuario', 'evaluacion', 'historialmisiones', 'recomendaciones']
+Inserted items: [('usuario', 7), ('mision', 'Aprende presupuesto'), ('mision', 'Entiende intereses'), ('mision', 'Ahorra 10% mensual'), ('actividad', 'Revisa tu presupuesto'), ('actividad', 'Calcula interes simple'), ('actividad', 'Activa ahorro automßtico'), ('evaluacion', 'Inicial'), ('evaluacion', 'Final'), 'recomendaciones_table_created', 'recomendaciones_samples']
+Skipped items: ['rolusuario (not empty)', 'actividad_usuario (missing or no user/activities)', 'historialmisiones (missing or no user/missions)']
+Errors: []
+Seed finished

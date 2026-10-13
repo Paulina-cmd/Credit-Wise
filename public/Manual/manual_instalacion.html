@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manual de Instalación — CreditWise</title>
+
+  <!-- Estilo CreditWise -->
+  <link rel="stylesheet" href="./_static/creditwise.css">
+</head>
+<body>
+
+  <!-- NAV SUPERIOR -->
+  <nav class="related" style="background-color:#dcd7ff; padding:10px; text-align:center;">
+    <a href="index.html" style="margin:0 15px;">📘 Manual de Usuario</a> |
+  </nav>
+
+  <header style="text-align:center; background-color:#9994ff; color:white; padding:20px;">
+    <h1>Manual de Instalación</h1>
+    <p><strong>Proyecto:</strong> CreditWise | <strong>Versión:</strong> 1.0 | <strong>Fecha:</strong> Octubre 2025</p>
+  </header>
+
+  <main style="max-width:900px; margin:30px auto; padding:20px;">
+    
+    <section>
+      <h2>1. Introducción</h2>
+      <p>Este manual explica el proceso de instalación y configuración de la aplicación <strong>CreditWise</strong>, desarrollada con <em>FastAPI</em> y <em>MySQL</em>.  
+      Su propósito es guiar paso a paso la correcta instalación del sistema tanto en entornos locales como de prueba.</p>
+    </section>
+
+    <section>
+      <h2>2. Requisitos del sistema</h2>
+      <ul>
+        <li>Sistema operativo: Windows 10 / Ubuntu 20.04 o superior.</li>
+        <li>Python 3.10+</li>
+        <li>MySQL Server 8.0+</li>
+        <li>Git</li>
+        <li>Navegador web moderno (Chrome, Edge o Firefox)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>3. Preparación del entorno</h2>
+      <h3>Verificar instalación de Python</h3>
+      <pre><code>python --version
+pip --version</code></pre>
+
+      <h3>Instalar MySQL</h3>
+      <pre><code>CREATE DATABASE creditwise_db;</code></pre>
+
+      <h3>Instalar Git</h3>
+      <pre><code>git --version</code></pre>
+    </section>
+
+    <section>
+      <h2>4. Clonar el repositorio</h2>
+      <pre><code>git clone https://github.com/Paulina-cmd/creditwise.git
+cd CreditWise</code></pre>
+    </section>
+
+    <section>
+      <h2>5. Instalar dependencias</h2>
+      <pre><code>pip install -r requirements.txt</code></pre>
+    </section>
+
+    <section>
+      <h2>6. Configuración del entorno</h2>
+      <p>Crea un archivo <code>.env</code> con el siguiente contenido:</p>
+      <pre><code>DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD="" 
+DB_NAME=creditwise_db
+PORT=8000</code></pre>
+    </section>
+
+    <section>
+      <h2>7. Ejecutar la aplicación</h2>
+      <pre><code>uvicorn main:app --reload</code></pre>
+      <p>Luego abre tu navegador y entra a:  
+      <strong>http://127.0.0.1:8000</strong></p>
+    </section>
+
+    <section>
+      <h2>8. Verificación</h2>
+      <p>Accede a <strong>/docs</strong> para comprobar la documentación interactiva de la API y probar las rutas del sistema.</p>
+    </section>
+
+    <section>
+
+        
+  <h2>9. Problemas comunes</h2>
+  <table>
+    <tr>
+      <th>Problema</th>
+      <th>Posible causa</th>
+      <th>Solución</th>
+    </tr>
+    <tr>
+      <td>ModuleNotFoundError</td>
+      <td>Dependencia faltante</td>
+      <td>Ejecutar <code>pip install -r requirements.txt</code></td>
+    </tr>
+    <tr>
+      <td>Error de conexión a la BD</td>
+      <td>Datos incorrectos en <code>.env</code></td>
+      <td>Revisar credenciales y que MySQL esté ejecutándose</td>
+    </tr>
+    <tr>
+      <td>Puerto en uso</td>
+      <td>Otro proceso usa el <code>8000</code></td>
+      <td>Cambiar el valor de <code>PORT</code> en <code>.env</code></td>
+    </tr>
+  </table>
+</section>
+                                                 
+
+    <section>
+      <h2>10. Desinstalación</h2>
+      <p>Para eliminar la aplicación:</p>
+      <ul>
+        <li>Borra la carpeta del proyecto.</li>
+        <li>Elimina la base de datos desde MySQL:</li>
+      </ul>
+      <pre><code>DROP DATABASE creditwise_db;</code></pre>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>Equipo CreditWise: Valery Martínez · Sara Enciso · Paulina Velásquez · María Paula Guerrero</p>
+    <p><a href="index.html">⬅ Volver al Manual de Usuario</a> 
+  </footer>
+
+</body>
+</html>

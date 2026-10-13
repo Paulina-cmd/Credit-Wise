@@ -1,0 +1,55 @@
+Configuracion de perfil
+============================
+
+Esta sección te enseñará a crear tu cuenta, iniciar sesión y comenzar tu experiencia
+con la aplicación.
+
+Registro de usuario
+--------------------
+
+1. Ingresa a la página principal de **CreditWise**.  
+2. Haz clic en el botón **“Registrarse”** ubicado en la parte inferior o superior de la pantalla.  
+3. Completa el formulario con tus datos:
+   - Nombre completo  
+   - Correo electrónico  
+   - Contraseña segura  
+4. Acepta los términos y condiciones.  
+5. Pulsa el botón **“Crear cuenta”**.  
+
+.. image:: _static/registro.png
+   :alt: Pantalla de registro
+   :align: center
+   :width: 500px
+
+Una vez registrado, recibirás un mensaje de bienvenida y podrás acceder a tu cuenta.
+
+Inicio de sesión
+-----------------
+1. Desde la pantalla principal, haz clic en **“Iniciar sesión”**.  
+2. Introduce tu correo y contraseña.  
+3. Pulsa el botón **“Entrar”** para ingresar a tu panel personal.  
+
+.. image:: _static/login.png
+   :alt: Pantalla de inicio de sesión
+   :align: center
+   :width: 500px
+
+Recuperar contraseña
+---------------------
+Si olvidaste tu contraseña:
+
+1. En la pantalla de inicio de sesión, selecciona **“¿Olvidaste tu contraseña?”**.  
+2. Ingresa tu correo electrónico.  
+3. Revisa tu bandeja de entrada para restablecer la contraseña.  
+
+Navegación general
+------------------
+Una vez dentro, verás el **menú principal** con las siguientes secciones:
+
+- **Inicio:** resumen general de tu progreso, logros y misiones activas.  
+- **Misiones:** retos financieros que te enseñan sobre manejo del dinero.  
+- **Historial:** registro de tus actividades y resultados anteriores.  
+- **Recomendaciones:** consejos personalizados basados en tu desempeño.  
+- **Dólar:** información actualizada sobre el valor del dólar.  
+- **Gráficos:** visualización de tus hábitos y evolución financiera.  
+

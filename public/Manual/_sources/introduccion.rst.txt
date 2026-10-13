@@ -1,0 +1,9 @@
+Introducción
+============
+
+CreditWise es un proyecto que busca...
+
+- Objetivo principal
+- Funcionalidades principales
+- Motivación para el desarrollo
+- Tecnologías usadas

@@ -1,0 +1,201 @@
+/* ==== ESTILOS GENERALES ==== */
+body {
+  font-family: "Poppins", "Segoe UI", sans-serif;
+  background-color: #f9fafc;
+  color: #222;
+  line-height: 1.7;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+/* ==== CABECERAS ==== */
+h1, h2, h3, h4 {
+  color: #3a2e8c; /* Morado CreditWise */
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+h1 {
+  border-bottom: 3px solid #6c63ff;
+  padding-bottom: 10px;
+  margin-top: 1.5em;
+}
+
+h2 {
+  color: #4e4b9d;
+  margin-top: 1.2em;
+}
+
+h3 {
+  color: #5b58b2;
+  margin-top: 1em;
+}
+
+/* ==== ENLACES ==== */
+a {
+  color: #6c63ff;
+  text-decoration: none;
+  transition: color 0.2s ease-in;
+}
+a:hover {
+  color: #463fcf;
+  text-decoration: underline;
+}
+
+/* ==== LISTAS ==== */
+ul {
+  list-style-type: "💡 ";
+  padding-left: 1.2em;
+}
+
+li {
+  margin-bottom: 0.4em;
+}
+
+/* ==== BLOQUES ==== */
+section {
+  background: #ffffff;
+  border: 1px solid #e8e8e8;
+  border-radius: 15px;
+  padding: 25px;
+  margin: 20px 0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+/* ==== TABLA DE CONTENIDO ==== */
+.toctree-wrapper {
+  background: #f0f0ff;
+  border: 1px solid #d9d6ff;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+/* ==== SIDEBAR ==== */
+.sphinxsidebar {
+  background-color: #c8c0ff;
+  color: white;
+  padding: 20px;
+  border-radius: 0 15px 15px 0;
+}
+
+.sphinxsidebar a {
+  color: #fff;
+}
+.sphinxsidebar a:hover {
+  color: #f0dfff;
+}
+.sphinxsidebar h3 {
+  color: #fff;
+  border-bottom: 1px solid #6c63ff;
+  padding-bottom: 5px;
+}
+
+/* ==== PIE DE PÁGINA ==== */
+.footer {
+  background-color: #8f86ca;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  border-top: 3px solid #6c63ff;
+}
+.footer a {
+  color: #d1cbff;
+}
+.footer a:hover {
+  color: white;
+}
+
+/* ==== TEXTOS ==== */
+strong {
+  color: #908ccf;
+}
+em {
+  color: #5b58b2;
+}
+
+/* ==== BOTONES ==== */
+button, .btn {
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 14px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:hover, .btn:hover {
+  background-color: #b4b1e9;
+}
+
+.tdbtitle {
+    color: #3a2e8c;
+    
+}
+
+/* ==== CÓDIGO Y COMANDOS ==== */
+code, .cmd {
+  background-color: #f0edff;
+  color: #3a2e8c;
+  font-family: "Fira Code", "Consolas", monospace;
+  padding: 3px 6px;
+  border-radius: 6px;
+  font-size: 0.95em;
+  border: 1px solid #d7d3ff;
+}
+
+pre code {
+  background-color: #f7f5ff;
+  display: block;
+  padding: 12px;
+  border-radius: 10px;
+  overflow-x: auto;
+  border-left: 4px solid #6c63ff;
+}
+
+/* ==== TABLAS ==== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  font-size: 15px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+th, td {
+  padding: 12px 16px;
+  text-align: left;
+}
+
+th {
+  background-color: #6c63ff;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+tr:nth-child(even) {
+  background-color: #f4f2ff;
+}
+
+tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+tr:hover {
+  background-color: #e5e3ff;
+  transition: 0.2s ease-in-out;
+}
+
+td code {
+  background-color: #f0edff;
+  color: #3a2e8c;
+  padding: 2px 5px;
+  border-radius: 5px;
+  font-family: "Fira Code", monospace;
+}

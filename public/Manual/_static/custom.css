@@ -1,0 +1,142 @@
+/* ==== ESTILOS GENERALES ==== */
+body {
+  font-family: "Poppins", "Segoe UI", sans-serif;
+  background-color: #f9fafc;
+  color: #222;
+  line-height: 1.7;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+/* ==== CABECERAS ==== */
+h1, h2, h3, h4 {
+  color: #3a2e8c; /* Morado CreditWise */
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+h1 {
+  border-bottom: 3px solid #6c63ff;
+  padding-bottom: 10px;
+  margin-top: 1.5em;
+}
+
+h2 {
+  color: #4e4b9d;
+  margin-top: 1.2em;
+}
+
+h3 {
+  color: #5b58b2;
+  margin-top: 1em;
+}
+
+/* ==== ENLACES ==== */
+a {
+  color: #6c63ff;
+  text-decoration: none;
+  transition: color 0.2s ease-in;
+}
+a:hover {
+  color: #463fcf;
+  text-decoration: underline;
+}
+
+/* ==== LISTAS ==== */
+ul {
+  list-style-type: "💡 ";
+  padding-left: 1.2em;
+}
+
+li {
+  margin-bottom: 0.4em;
+}
+
+/* ==== BLOQUES DE CONTENIDO ==== */
+section {
+  background: #ffffff;
+  border: 1px solid #e8e8e8;
+  border-radius: 15px;
+  padding: 25px;
+  margin: 20px 0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+/* ==== TABLA DE CONTENIDO ==== */
+.toctree-wrapper {
+  background: #f0f0ff;
+  border: 1px solid #d9d6ff;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.caption-text {
+  font-weight: 600;
+  color: #beb7ee;
+}
+
+/* ==== NAV LATERAL ==== */
+.sphinxsidebar {
+  background-color: #c8c0ff;
+  color: white;
+  padding: 20px;
+  border-radius: 0 15px 15px 0;
+}
+
+.sphinxsidebar a {
+  color: #fff;
+}
+
+.sphinxsidebar a:hover {
+  color: #f0dfff;
+}
+
+.sphinxsidebar h3 {
+  color: #fff;
+  border-bottom: 1px solid #6c63ff;
+  padding-bottom: 5px;
+}
+
+/* ==== PIE DE PÁGINA ==== */
+.footer {
+  background-color: #8f86ca;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  border-top: 3px solid #6c63ff;
+}
+
+.footer a {
+  color: #d1cbff;
+}
+
+.footer a:hover {
+  color: white;
+}
+
+/* ==== ELEMENTOS DESTACADOS ==== */
+strong {
+  color: #908ccf;
+}
+
+em {
+  color: #5b58b2;
+}
+
+/* ==== BOTONES (para ejemplos) ==== */
+button, .btn {
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 14px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover, .btn:hover {
+  background-color: #b4b1e9;
+}

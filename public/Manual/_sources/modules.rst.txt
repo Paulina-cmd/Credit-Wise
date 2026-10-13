@@ -1,0 +1,12 @@
+Módulos
+=======
+
+.. automodule:: creditwise
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+.. automodule:: otro_modulo
+    :members:
+    :undoc-members:
+    :show-inheritance:

@@ -1,0 +1,36 @@
+CreditWise Documentación
+========================
+
+Introducción
+------------
+
+Bienvenido a la documentación de CreditWise. Aquí encontrarás toda la información necesaria para entender y utilizar el proyecto.
+
+Créditos
+--------
+
+Este proyecto fue desarrollado por **Sara Enciso** y el equipo de desarrollo.
+
+Acerca del Proyecto
+-------------------
+
+CreditWise es una aplicación diseñada para gestionar créditos de manera eficiente y segura.
+
+---
+
+Contenido Principal
+-------------------
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Índice
+
+   caracteristicas
+   soporte
+   configuracion
+
+
+---
+
+
+
